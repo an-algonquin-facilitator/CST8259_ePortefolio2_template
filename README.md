@@ -1,3 +1,8 @@
+# versions
+
+npm=8 or higher
+node=18 or higher
+
 # How to run
 
 1. Open 2 terminals
