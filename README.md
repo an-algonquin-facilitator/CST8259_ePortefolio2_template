@@ -7,3 +7,21 @@
 1. In the second terminal.
 1. Run `npm ci`. Again, just once.
 1. Run `npm start`. This one does not have reload-on-save so you will have to ctrl+c and rerun the program when you make changes
+
+# How this was created
+
+The UI folder was simply built by running the command:
+
+```sh
+$ npx create-react-app PROJECT_NAME
+```
+
+This is a very common basic command for creating React websites.
+
+The server I ran the following commands:
+
+```sh
+server$ npm init
+server$ npm install express cors
+server$ vi src/index.js
+```
